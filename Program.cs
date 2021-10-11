@@ -16,7 +16,7 @@ namespace AES1
             {
                 StartCryption SC = new StartCryption();
 
-                Console.WriteLine("Выберете режим работы. (e - шифрование, d - дешифрование)");
+                Console.WriteLine("Выберите режим работы. (e - шифрование, d - дешифрование)");
                 command = Console.ReadLine();
                 if (command == "e")
                 {
